@@ -1,5 +1,5 @@
 {
-  "name": "vdomah/jwtauth-plugin",
+  "name": "planetadeleste/jwtauth-plugin",
   "type": "october-plugin",
   "description": "JWTAuth plugin for October CMS wich provides token based authentication",
   "keywords": ["october", "octobercms", "auth", "api", "token"],

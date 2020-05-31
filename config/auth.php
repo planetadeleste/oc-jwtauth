@@ -59,7 +59,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => env('AUTH_PROVIDERS_USERS_DRIVER', 'eloquent'),
-            'model' => env('AUTH_PROVIDERS_USERS_MODEL', '\RainLab\User\Models\User'),
+            'model' => env('AUTH_PROVIDERS_USERS_MODEL', '\Lovata\Buddies\Models\User'),
         ],
     ],
     /*

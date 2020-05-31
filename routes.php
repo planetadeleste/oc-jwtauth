@@ -1,7 +1,7 @@
 <?php
 
 use RainLab\User\Models\User as UserModel;
-use Vdomah\JWTAuth\Models\Settings;
+use PlanetaDelEste\JWTAuth\Models\Settings;
 
 Route::group(['prefix' => 'api'], function() {
 

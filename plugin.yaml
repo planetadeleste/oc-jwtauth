@@ -1,6 +1,6 @@
 plugin:
-    name: 'vdomah.jwtauth::lang.plugin.name'
-    description: 'vdomah.jwtauth::lang.plugin.description'
-    author: Vdomah
+    name: 'planetadeleste.jwtauth::lang.plugin.name'
+    description: 'planetadeleste.jwtauth::lang.plugin.description'
+    author: PlanetaDelEste
     icon: oc-icon-key
-    homepage: 'https://github.com/vdomah/oc-jwtauth'
+    homepage: 'https://github.com/planetadeleste/oc-jwtauth'

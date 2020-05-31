@@ -73,7 +73,7 @@ return [
     |
     */
 
-    'user' => env('JWT_USER_CLASS', 'RainLab\User\Models\User'),
+    'user' => env('JWT_USER_CLASS', 'Lovata\Buddies\Models\User'),
 
     /*
     |--------------------------------------------------------------------------

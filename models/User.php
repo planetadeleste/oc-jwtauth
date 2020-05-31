@@ -1,6 +1,6 @@
-<?php namespace Vdomah\JWTAuth\Models;
+<?php namespace PlanetaDelEste\JWTAuth\Models;
 
-use RainLab\User\Models\User as UserBase;
+use Lovata\Buddies\Models\User as UserBase;
 
 class User extends UserBase
 {

@@ -1,7 +1,7 @@
-<?php namespace Vdomah\JWTAuth\Classes;
+<?php namespace PlanetaDelEste\JWTAuth\Classes;
 
 use Config;
-use Vdomah\JWTAuth\Models\Settings;
+use PlanetaDelEste\JWTAuth\Models\Settings;
 
 class JWTAuthServiceProvider extends \Tymon\JWTAuth\Providers\JWTAuthServiceProvider
 {
@@ -17,7 +17,7 @@ class JWTAuthServiceProvider extends \Tymon\JWTAuth\Providers\JWTAuthServiceProv
         $val = Settings::get($key);
 
         if (!$val)
-            $val = Config::get('vdomah.jwtauth::' . $key);
+            $val = Config::get('planetadeleste.jwtauth::' . $key);
 
         return $val ?: config("jwt.$key", $default);
     }
